@@ -1,0 +1,237 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/*
+* { 
+  outline: 1px solid black;
+}
+*/
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    min-width: 965px;
+    min-height: 500px;
+}
+
+.container2 {
+    position: relative;
+    height: 200px;
+    width: 100%; 
+}
+
+a {
+    font-family: Arial;
+    text-decoration: none;
+    color: black;
+}
+
+.section1 {
+    border: none;
+    position: static;
+    height: 80px;
+}
+
+.nav1 {
+    float: right;
+    font-size: 13px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.nav1:hover {
+    text-decoration: underline;
+}
+
+#small-grid img {
+    height: 22px;
+    width: 21px;
+    margin-top: -6px;
+    padding: 2px;
+}
+
+#sign-in {
+    font-family: Arial;
+    font-weight: bold;
+    color: #fff;
+    float: right;
+    font-size: 13px;
+    padding: 5px;
+    margin: 5px;
+    
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-image: linear-gradient(#4387fd, #4683ea);
+    background-image: -webitkit-linear-gradient(#4387fd, #4683ea);
+    background-image: -moz-linear-gradient(#4387fd, #4683ea);
+}
+
+#sign-in a {
+    color: white;
+    cursor: default;
+}
+
+#sign-in:hover {
+    box-shadow: 0px 0px 1px #4683ea;
+}
+
+#small-grid a:hover {
+    cursor: default;
+}
+
+.google {
+    position: relative;
+    border: none;
+    margin: 0 auto;
+    text-align: center;
+    top: 112px;
+}
+
+.search-box {
+    position: relative;
+    margin: 0 auto;
+    width: 560px;
+    height: 26px;
+}
+
+#search-box {
+    border: 1px solid #d3d3d3;
+    position: relative;
+    margin: 0 auto;
+    width: 560px;
+    height: 26px;
+    display: block;
+    top: 120px;
+}
+
+#search-box:hover {
+    border-color: #ababab;
+}
+
+#search-box:focus {
+    outline: none;
+    border: 1px solid #4387fd;
+}
+
+#microphone {
+    position: absolute;
+    top: 123px;
+    right: 0px;
+}    
+
+#microphone a:hover {
+    color: black;
+}
+
+.section2 {
+    position: relative;
+    top: 125px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.button {
+    background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+    background-image: linear-gradient(top,#f5f5f5,#F1F1F1);
+    background-image: -o-linear-gradient(top,#f5f5f5,#F1F1F1);
+    background-color: #f5f5f5;
+    padding: 8px 8px;
+    text-align: center;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #454545;
+    font-family: Arial;
+    font-weight: 800;
+    font-size: 11px;
+    font-stretch: condensed;
+    width: auto;
+    margin: 10px;
+  }
+
+  .button:hover {
+    color: #333;
+    box-shadow: 0px 1px 1px #bdbdbd;
+    cursor: default;
+  }
+
+  .button:active {
+    position:relative; top: 1px;
+  }
+
+.nav3 {
+    display: inline-block;
+    float: left;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-family: Verdana;
+    font-weight: 550;
+    margin-top: 1px;
+}
+
+.nav3 a {
+    color: #696969;
+}
+
+.nav3 a:hover {
+    text-decoration: underline;
+}
+
+.nav4 {
+    display: inline-block;
+    float:right;
+    color: #707070;
+    padding: 10px 15px;
+    font-size: 13px;
+    font-family: Verdana;
+    font-weight: 550;
+    margin-top: 1px;
+}
+
+.nav4 a {
+    color: #696969;
+}
+
+.nav4 a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    position: absolute;
+    font-family: Verdana;
+    bottom: 0px;
+    clear: both;
+    
+    width: 100%;
+    background-color: #f0f0f0;
+    border: 1px solid #e3e3e3;
+}
